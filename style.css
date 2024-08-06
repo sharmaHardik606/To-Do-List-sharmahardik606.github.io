@@ -81,6 +81,7 @@ button:active{
 
 .list-item{
     display: flex;
+    text-align: center;
     align-items:flex-start;
     justify-content: flex-start;
     height:auto;
@@ -92,9 +93,26 @@ ul{
     width: 36.5vw;
     display: flex;
     flex-direction: column;
+    align-items:start;
+    justify-content: center;
     padding-left: 2.3vw;
+}
+
+li::marker{
+    font-size: 20px;
+   
 }
 
 li{
     line-height: 2rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.cross{
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 20px;
+    color: red;
 }

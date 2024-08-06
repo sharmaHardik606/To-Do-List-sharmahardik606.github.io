@@ -3,7 +3,6 @@ let button = document.querySelector('button');
 let ul = document.querySelector('ul');
 let cross = document.querySelector('.cross');
 
-cross.style.display = 'none';
 
 
 const mainFunc = function(){
